@@ -3,4 +3,4 @@ Meu objetivo com este repositório é conseguir resolver o máximo de exercício
 
 Atualmente estou resolvendo os testes de 2021 em C++ pois estou criando projetos em Arduino, e meu principal foco agora é ficar confortável em desenvolver nessa linguagem.
 
-Todos os exercícios são facilmente resolvidos no <a href="https://www.onlinegdb.com/online_c++_compiler" target="_blank">Online C++ Compiler</a>.
+Todos os exercícios são facilmente resolvidos no <a target="_blank" href="https://www.onlinegdb.com/online_c++_compiler">Online C++ Compiler</a>.
