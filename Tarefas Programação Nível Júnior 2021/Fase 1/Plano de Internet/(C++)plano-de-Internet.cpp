@@ -4,38 +4,31 @@ using namespace std;
 
 int main()
 {
-    int X; //quota
-    int N; //número de meses
-    int M_i; //quantidade usada no mês atual
-    int quota_anterior; //quota do mês anterior
+    int X, N, M_i, quota_anterior;
+
+    //X é quota, N é número de meses, M_i é quantidade usada no mês atual...
+    // e quota_anterior guardamos o valor do mês anterior.
     
+    //A quota do mês anterior ainda é inexistente pois não começamos a...
+    //contar ainda, como em toda conta de internet.
     quota_anterior = 0;
-    
-    cout<<"Insira a quota: ";
-    cin >> X;
-    
-    cout<<"Insira o número de meses: ";
-    cin >> N;
+
+    //Inserindo a quota e o número de meses.
+    cin >> X >> N;
     
     for (int count = 1; count <= N; count++){
-        
+        //Inserindo a quota usada no mês atual.
+        cin >> M_i;
+
         if(quota_anterior == 0){
             quota_anterior = X;
-        }
-        
-        cout<<"Insira a quota usada do mês "<<count<<": ";
-        cin >> M_i;
-        
-        //Verificador de quota mês a mês
-        //quota_anterior = quota_anterior - M_i;
-        //cout<<"cota mes "<<count<<" é "<<quota_anterior<< endl;
+            X = quota_anterior + (X - M_i);
+        } else {
+            X = quota_anterior + (X - M_i);
+        }        
     }
-    
-    if (quota_anterior != 0){
-        X = (X+quota_anterior)+X;
-    }
-    
-    cout<<"Cota do próximo mês é "<<X<<".";
+      
+    cout<<X;
 
     return 0;
 }
