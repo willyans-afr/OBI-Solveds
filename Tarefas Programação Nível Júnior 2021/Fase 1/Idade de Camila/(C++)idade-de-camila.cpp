@@ -2,37 +2,29 @@
 
 using namespace std;
 
-int
-main ()
+int main ()
 {
-  int idade1;
-  int idade2;
-  int idade3;
+  //Definindo as variáveis.
+  int idade1, idade2, idade3;
 
-  cout << "Coloque a primeira idade: ";
-  cin >> idade1;
+  //Inserindo as variáveis.
+  cin >> idade1 >> idade2 >> idade3;
 
-  cout << "Coloque a segunda idade: ";
-  cin >> idade2;
-
-  cout << "Coloque a terceira idade: ";
-  cin >> idade3;
-
-  //idade 1
-  if ((idade2 <= idade1 && idade1 <= idade3)
-      || (idade3 <= idade1 && idade1 <= idade2))
+  //Verificando se a Idade 1 é menor que idade 3 e maior que idade 2 ou...
+  //se idade 1 é menor que idade 2 e maior que idade 3.
+  if ((idade2 <= idade1 && idade1 <= idade3) || (idade3 <= idade1 && idade1 <= idade2))
     {
+  //Imprimindo idade 1 caso se verdade.
       cout << idade1;
     }
-  //idade 2
-  else if ((idade1 <= idade2 && idade2 <= idade3)
-	   || (idade3 <= idade2 && idade2 <= idade1))
+  //Verificando se a Idade 2 é menor que idade 3 e maior que idade 1 ou...
+  //se idade 2 é menor que idade 1 e maior que idade 3.
+  else if ((idade1 <= idade2 && idade2 <= idade3) || (idade3 <= idade2 && idade2 <= idade1))
     {
+  //Imprimindo idade 2 caso se verdade.
       cout << idade2;
-    }
-  //idade 3 caso nC#o sejam as outras idades
-  else
-    {
+    } else {
+  //Caso não seja idade 1 ou 2 que seja a do meio, então teremos a certeza que é a idade 3.
       cout << idade3;
     }
 
