@@ -4,3 +4,5 @@ Meu objetivo com este repositório é conseguir resolver o máximo de exercício
 Atualmente estou resolvendo os testes de 2021 em C++ pois estou criando projetos em Arduino, e meu principal foco agora é ficar confortável em desenvolver nessa linguagem.
 
 Todos os exercícios são facilmente resolvidos no <a target="_parent" href="https://www.onlinegdb.com/online_c++_compiler">Online C++ Compiler</a>.
+
+<a href="https://olimpiada.ic.unicamp.br/pratique/pj/">Acesse o Portal da OBI aqui.</a>
