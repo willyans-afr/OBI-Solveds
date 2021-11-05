@@ -5,29 +5,31 @@ public class Program
 	public static void Main()
 	{
 		
-		int idade1, idade2, idade3;
-		int maior, medio, menor;
+		int camila;
 		
-		idade1 = int.Parse(Console.ReadLine());
-		idade2 = int.Parse(Console.ReadLine());
-		idade3 = int.Parse(Console.ReadLine());
+		// Leitura das idades inseridas
+		int idade1 = int.Parse(Console.ReadLine());
+		int idade2 = int.Parse(Console.ReadLine());
+		int idade3 = int.Parse(Console.ReadLine());
 		
+		/* A linha a seguir trata que a maior, media e menor idade,
+		respectivamente, seja: idade1; idade3; idade2. Onde a idade3
+		é a Camila. */
 		if (idade1 > idade2 && idade2 < idade3) {
-			maior = idade1;
-			medio = idade3;
-			menor = idade2;
+			camila = idade3;
 			Console.WriteLine();
-			Console.WriteLine(medio);
+			Console.WriteLine(camila);
+		/* A linha a seguir trata que a maior, media e menor idade,
+		respectivamente, seja: idade2; idade3; idade1. Onde a idade3
+		é a Camila. */
 		} else if (idade1 < idade2 && idade2 > idade3) {
-			maior = idade2;
-			medio = idade3;
-			menor = idade1;
+			camila = idade3;
 			Console.WriteLine();
-			Console.WriteLine(medio);
+			Console.WriteLine(camila);
 		} else {
-			medio = idade2;
+			camila = idade2;
 			Console.WriteLine();
-			Console.WriteLine(medio);
+			Console.WriteLine(camila);
 		}
 	}
 }
