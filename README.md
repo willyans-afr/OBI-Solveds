@@ -6,7 +6,7 @@ Nosso objetivo com este repositório é conseguir resolver o máximo de exercíc
 
 ## Links úteis
 
- - [OBI Desafios](https://olimpiada.ic.unicamp.br/pratique/)
+ - [OBI Desafios 2021](https://olimpiada.ic.unicamp.br/pratique/)
  - [Compilador Java Online](https://www.jdoodle.com/online-java-compiler/)
  - [Compilador C++ Online](https://www.onlinegdb.com/online_c++_compiler)
  - [Compilador Python Online](https://www.onlinegdb.com/online_python_compiler)
