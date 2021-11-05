@@ -16,7 +16,7 @@ Nosso objetivo com este repositório é conseguir resolver o máximo de exercíc
 
 ## Autores do repositório
 
-- [@willyans](https://github.com/willyans-afr) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willyans/)
-- [@jacksomguilherme](https://github.com/JacksomGuilherme) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jacksom-guilherme-0365741b4/)
-- [@guilhermecampos](https://github.com/JGCampos999) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-campos-361285142/)
-- [@andresernajoto](https://github.com/andresernajoto) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andre-sernajoto-21baab1b1/)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willyans/) [@willyans](https://github.com/willyans-afr) <b>(Colaborador C++)</b>
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jacksom-guilherme-0365741b4/) [@jacksomguilherme](https://github.com/JacksomGuilherme) <b>(Colaborador Java)</b>
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-campos-361285142/) [@guilhermecampos](https://github.com/JGCampos999) <b>(Colaborador Python)</b>
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andre-sernajoto-21baab1b1/) [@andresernajoto](https://github.com/andresernajoto) <b>(Colaborador C#)</b>
